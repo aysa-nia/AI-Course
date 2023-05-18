@@ -1,0 +1,9 @@
+1- create samples expression tree with variables
+2- compute their value by given inputs 
+3- compute fitness function by having original value and computed value(fitness function is mse or rmse) if the condition was satisfied we exit
+4-(roulette wheel ) compute pi = fi/sum of all f 
+5- compute expected pi = number of samples in generation * pi 
+6- select n samples with any order you like whether its random or not it is based on expected 
+7- excute cross over method on both of them now again we new childs
+8- excute mutation on each child indvidualy
+9- now we have a new generation we go to step 2 again
